@@ -1,113 +1,141 @@
-.header_container{
+.header_container {
     padding: 10px 150px;
 }
-.proj_container{
+
+.proj_container {
     padding: 15px 150px;
-    background-color: rgb(209, 209, 209);
+    background: #F7F6FF;
+;
 }
-section{
+
+section {
     padding: 30px 0;
 }
-div{
-    margin: 0;
-    padding: 0;
-}
+
+
+
 /* header */
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
 }
-.btn-danger{
+
+.btn-danger {
     width: 100px;
+
+}
+
+.nav-link {
+    color: black;
 }
 
 /* main */
-.main_block{
+
+.main_block {
     display: flex;
     justify-content: space-between;
 }
-h2{
+
+h2 {
     font-size: 35px;
     font-weight: 700;
 }
-.left_blocks{
+
+.left_blocks {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
 }
-.left_blocks .text{
+
+.left_blocks .text {
     font-size: 55px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 100px;
 }
-h2{
+
+h2 {
     display: flex;
 }
 
-.info_block{
+.info_block {
     z-index: 5;
     background-color: white;
     padding: 10px 15px;
     border-radius: 15px;
 }
 
-.info_items{
+.info_items {
     display: flex;
     justify-content: space-between;
 }
 
-.info_item{
+.info_item {
     padding-left: 15px;
 }
 
 
 /* card */
 
-.card_item{
-    background-color: white;
-    border-radius: 10px;
-    margin: 0 15px;
+.card_items {
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+
 }
 
-.header_card{
+.header_card {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+}
+
+.body-card {
+    background-color: white;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.card_item button{
+    padding: 10px 25px;
+    margin: 10px 45px;
 }
 
 /* form */
 
-.form-control{
+.form-control {
     width: 475px;
     margin: 15px 0;
-    
+
 }
 
-.form_block{
+.form_block {
     display: flex;
     justify-content: space-between;
 }
 
-.images{
+.images {
     display: flex;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-footer{
+.cards {
     display: flex;
     justify-content: space-between;
 }
 
-.footer_nav{
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_nav {
     display: flex;
     flex-direction: column;
 }
